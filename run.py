@@ -57,7 +57,9 @@ Does {character_name} take the the left path or the right? \n")
         path_2_b()
 
     else:
-        path_1()
+        print("Invalid input")
+        print("-" * 50)
+        answer = input("[Enter: left or right] ")
 
 # PATH 2
 
@@ -82,7 +84,9 @@ buy supplies before moving on? \n")
         path_3_b()
 
     else:
-        path_2_a()
+        print("Invalid input")
+        print("-" * 50)
+        answer = input("[Enter: buy supplies or keep moving] ")
 
 
 def path_2_b():
@@ -103,7 +107,9 @@ def path_2_b():
         path_3_d()
 
     else:
-        path_2_b()
+        print("Invalid input")
+        print("-" * 50)
+        answer = input("[Enter: left or right] ")
 
 # PATH 3
 
@@ -126,7 +132,9 @@ def path_3_a():
         start_story()
 
     else:
-        path_3_a()
+        print("Invalid input")
+        print("-" * 50)
+        answer = input("[Enter: left or right] ")
 
 
 def path_3_b():
@@ -147,7 +155,9 @@ def path_3_b():
         start_story()
 
     else:
-        path_3_b()
+        print("Invalid input")
+        print("-" * 50)
+        answer = input("[Enter: left or right] ")
 
 
 def path_3_c():
@@ -168,7 +178,9 @@ def path_3_c():
         start_story()
 
     else:
-        path_3_c()
+        print("Invalid input")
+        print("-" * 50)
+        answer = input("[Enter: left or right] ")
 
 
 def path_3_d():
@@ -189,7 +201,9 @@ def path_3_d():
         start_story()
 
     else:
-        path_3_d()
+        print("Invalid input")
+        print("-" * 50)
+        answer = input("[Enter: left or right] ")
 
 # RETURNED FUNCTIONS
 
