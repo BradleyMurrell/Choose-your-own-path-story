@@ -2,8 +2,11 @@ def start_story():
     """
     Start a new story here
     """
-    print("Do you want to start the story again? \n")
-    answer = input("[Enter: yes or no] \n")
+    print("-" * 50)
+    print("\n Do you want to start the story again? \n")
+    print("-" * 50)
+    answer = input("[Enter: yes or no] ")
+    print("-" * 50)
 
     if answer == "yes":
         path_1()
@@ -17,14 +20,17 @@ def path_1():
     """
     Path 1
     """
-    print("A messenger has been tasked to deliver an important message to the castle. \
-Along the way, the messenger came to a crossroad. To the left, the path led \
-through mountains. To the right, the path led through a dark and scary \
-forest. The mountains look safer, but will take a few extra days. The forest \
-would be quicker, but it looks dangerous. Do you take the the left path or \
-the right? \n")
+    print("-" * 50)
+    print("\n A messenger has been tasked to deliver an important message to \
+the castle. Along the way, the messenger came to a crossroad. To the left, \
+the path led through mountains. To the right, the path led through a dark and \
+scary forest. The mountains look safer, but will take a few extra days. The \
+forest would be quicker, but it looks dangerous. Do you take the the left \
+path or the right? \n")
+    print("-" * 50)
 
-    answer = input("[Enter: left or right] \n")
+    answer = input("[Enter: left or right] ")
+    print("-" * 50)
 
     if answer == "left":
         path_2_a()
@@ -41,8 +47,11 @@ def path_2_a():
     """
     Path 2
     """
-    print("You chose the left path. Choose your the next path. Left or right? \n")
-    answer = input("[Enter: left or right] \n")
+    print("-" * 50)
+    print("\n You chose the left path. Choose your the next path. Left or right? \n")
+    print("-" * 50)
+    answer = input("[Enter: left or right] ")
+    print("-" * 50)
 
     if answer == "left":
         path_3_a()
@@ -57,8 +66,11 @@ def path_2_b():
     """
     Path 2
     """
-    print("You chose the right path. Choose your next path. Left or right? \n")
-    answer = input("[Enter: left or right] \n")
+    print("-" * 50)
+    print("\n You chose the right path. Choose your next path. Left or right? \n")
+    print("-" * 50)
+    answer = input("[Enter: left or right] ")
+    print("-" * 50)
 
     if answer == "left":
         path_3_c()
@@ -75,8 +87,11 @@ def path_3_a():
     """
     Path 3
     """
-    print("You chose the left path. Choose your the next path. Left or right? \n")
-    answer = input("[Enter: left or right] \n")
+    print("-" * 50)
+    print("\n You chose the left path. Choose your the next path. Left or right? \n")
+    print("-" * 50)
+    answer = input("[Enter: left or right] ")
+    print("-" * 50)
 
     if answer == "left":
         start_story()
@@ -91,8 +106,11 @@ def path_3_b():
     """
     Path 3
     """
-    print("You chose the right path. Choose your next path. Left or right? \n")
-    answer = input("[Enter: left or right] \n")
+    print("-" * 50)
+    print("\n You chose the right path. Choose your next path. Left or right? \n")
+    print("-" * 50)
+    answer = input("[Enter: left or right] ")
+    print("-" * 50)
 
     if answer == "left":
         start_story()
@@ -107,8 +125,11 @@ def path_3_c():
     """
     Path 3
     """
-    print("You chose the left path. Choose your the next path. Left or right? \n")
-    answer = input("[Enter: left or right] \n")
+    print("-" * 50)
+    print("\n You chose the left path. Choose your the next path. Left or right? \n")
+    print("-" * 50)
+    answer = input("[Enter: left or right] ")
+    print("-" * 50)
 
     if answer == "left":
         start_story()
@@ -123,8 +144,11 @@ def path_3_d():
     """
     Path 3
     """
-    print("You chose the right path. Choose your next path. Left or right? \n")
-    answer = input("[Enter: left or right] \n")
+    print("-" * 50)
+    print("\n You chose the right path. Choose your next path. Left or right? \n")
+    print("-" * 50)
+    answer = input("[Enter: left or right] ")
+    print("-" * 50)
 
     if answer == "left":
         start_story()
