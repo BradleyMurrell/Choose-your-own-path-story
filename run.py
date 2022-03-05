@@ -1,3 +1,16 @@
+# STORY TITLE
+
+print("-" * 50)
+print("A messengers journey")
+print("-" * 50)
+print("Instructions")
+print("-" * 50)
+character_name = input("Please enter your character's name: ")
+print("-" * 50)
+
+
+# START STORY
+
 def start_story():
     """
     Start a new story here
@@ -159,6 +172,7 @@ def path_3_d():
     else:
         path_3_d()
 
+# RETURNED FUNCTIONS
 
 path_1()
 path_2_a()
