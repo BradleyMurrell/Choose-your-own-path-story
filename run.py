@@ -44,7 +44,7 @@ an important message to the castle. Along the way, {character_name} came to \
 a crossroad. To the left, the path led through mountains. To the right, the \
 path led through a dark and scary forest. The mountains look safer, but will \
 take a few extra days. The forest would be quicker, but it looks dangerous. \
-Does {character_name} take the the left path or the right? \n")
+Does {character_name} take the left path or the right? \n")
     print("-" * 50)
 
     answer = input("[Enter: left or right] ")
@@ -121,7 +121,7 @@ def path_3_a():
     print("-" * 50)
     print(f"\n As {character_name} was busy looking at the supplies, the \
 merchant, who was actually an assasin, snuck up behind {character_name} \
-and killed them. The important mesaage never made it to the castle. \n")
+and killed them. The important message never made it to the castle. \n")
     print("-" * 50)
     start_story()
     print("-" * 50)
