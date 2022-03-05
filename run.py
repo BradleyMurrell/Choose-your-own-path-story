@@ -1,5 +1,9 @@
 # STORY TITLE
 
+"""
+This is where the story title, instructions on how to progress through
+the story and creating the character is done.
+"""
 print("-" * 50)
 print("A messengers journey")
 print("-" * 50)
@@ -29,6 +33,7 @@ def start_story():
 
 # PATH 1
 
+
 def path_1():
     """
     Path 1
@@ -56,12 +61,14 @@ path or the right? \n")
 
 # PATH 2
 
+
 def path_2_a():
     """
     Path 2
     """
     print("-" * 50)
-    print("\n You chose the left path. Choose your the next path. Left or right? \n")
+    print("\n You chose the left path. Choose your the next path. Left \
+    or right? \n")
     print("-" * 50)
     answer = input("[Enter: left or right] ")
     print("-" * 50)
@@ -75,12 +82,14 @@ def path_2_a():
     else:
         path_2_a()
 
+
 def path_2_b():
     """
     Path 2
     """
     print("-" * 50)
-    print("\n You chose the right path. Choose your next path. Left or right? \n")
+    print("\n You chose the right path. Choose your next path. Left \
+    or right? \n")
     print("-" * 50)
     answer = input("[Enter: left or right] ")
     print("-" * 50)
@@ -96,12 +105,14 @@ def path_2_b():
 
 # PATH 3
 
+
 def path_3_a():
     """
     Path 3
     """
     print("-" * 50)
-    print("\n You chose the left path. Choose your the next path. Left or right? \n")
+    print("\n You chose the left path. Choose your the next path. Left \
+    or right? \n")
     print("-" * 50)
     answer = input("[Enter: left or right] ")
     print("-" * 50)
@@ -115,12 +126,14 @@ def path_3_a():
     else:
         path_3_a()
 
+
 def path_3_b():
     """
     Path 3
     """
     print("-" * 50)
-    print("\n You chose the right path. Choose your next path. Left or right? \n")
+    print("\n You chose the right path. Choose your next path. Left \
+    or right? \n")
     print("-" * 50)
     answer = input("[Enter: left or right] ")
     print("-" * 50)
@@ -134,12 +147,14 @@ def path_3_b():
     else:
         path_3_b()
 
+
 def path_3_c():
     """
     Path 3
     """
     print("-" * 50)
-    print("\n You chose the left path. Choose your the next path. Left or right? \n")
+    print("\n You chose the left path. Choose your the next path. Left \
+    or right? \n")
     print("-" * 50)
     answer = input("[Enter: left or right] ")
     print("-" * 50)
@@ -153,12 +168,14 @@ def path_3_c():
     else:
         path_3_c()
 
+
 def path_3_d():
     """
     Path 3
     """
     print("-" * 50)
-    print("\n You chose the right path. Choose your next path. Left or right? \n")
+    print("\n You chose the right path. Choose your next path. Left \
+    or right? \n")
     print("-" * 50)
     answer = input("[Enter: left or right] ")
     print("-" * 50)
@@ -173,6 +190,7 @@ def path_3_d():
         path_3_d()
 
 # RETURNED FUNCTIONS
+
 
 path_1()
 path_2_a()
