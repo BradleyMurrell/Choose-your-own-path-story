@@ -1,9 +1,8 @@
+import random
+
 # STORY TITLE
 
-"""
-This is where the story title, instructions on how to progress through
-the story and creating the character is done.
-"""
+
 print("-" * 50)
 print("A messengers journey")
 print("-" * 50)
@@ -121,10 +120,22 @@ def path_3_a():
     print("-" * 50)
     print(f"\n As {character_name} was busy looking at the supplies, the \
 merchant, who was actually an assasin, snuck up behind {character_name} \
-and killed them. The important message never made it to the castle. \n")
+and attempted to attack. \n")
     print("-" * 50)
-    start_story()
+    print("Attempt to fight back? [Roll dice]")
+    answer = input("[Enter: yes or no] ")
     print("-" * 50)
+    if answer == "yes":
+        dice_roll = random.randrange(1, 6)
+        print(dice_roll)
+
+        if dice_roll >= 3:
+            print("you won")
+            path_3_b()
+
+        else:
+            print("you lose")
+            start_story()
 
 
 def path_3_b():
@@ -194,6 +205,7 @@ def path_3_d():
         print("Invalid input")
         print("-" * 50)
         answer = input("[Enter: left or right] ")
+
 
 # RETURNED FUNCTIONS
 
