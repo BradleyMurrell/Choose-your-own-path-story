@@ -39,12 +39,12 @@ def path_1():
     Path 1
     """
     print("-" * 50)
-    print("\n A messenger has been tasked to deliver an important message to \
-the castle. Along the way, the messenger came to a crossroad. To the left, \
-the path led through mountains. To the right, the path led through a dark and \
-scary forest. The mountains look safer, but will take a few extra days. The \
-forest would be quicker, but it looks dangerous. Do you take the the left \
-path or the right? \n")
+    print(f"\n A messenger named {character_name} has been tasked to deliver \
+an important message to the castle. Along the way, {character_name} came to \
+a crossroad. To the left, the path led through mountains. To the right, the \
+path led through a dark and scary forest. The mountains look safer, but will \
+take a few extra days. The forest would be quicker, but it looks dangerous. \
+Does {character_name} take the the left path or the right? \n")
     print("-" * 50)
 
     answer = input("[Enter: left or right] ")
