@@ -119,22 +119,12 @@ def path_3_a():
     Path 3
     """
     print("-" * 50)
-    print("\n You chose the left path. Choose your the next path. Left \
-    or right? \n")
+    print(f"\n As {character_name} was busy looking at the supplies, the \
+merchant, who was actually an assasin, snuck up behind {character_name} \
+and killed them. The important mesaage never made it to the castle. \n")
     print("-" * 50)
-    answer = input("[Enter: left or right] ")
+    start_story()
     print("-" * 50)
-
-    if answer == "left":
-        start_story()
-
-    elif answer == "right":
-        start_story()
-
-    else:
-        print("Invalid input")
-        print("-" * 50)
-        answer = input("[Enter: left or right] ")
 
 
 def path_3_b():
