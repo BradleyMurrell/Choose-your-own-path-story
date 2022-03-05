@@ -67,16 +67,18 @@ def path_2_a():
     Path 2
     """
     print("-" * 50)
-    print("\n You chose the left path. Choose your the next path. Left \
-    or right? \n")
+    print(f"\n {character_name} decided that it would be safer to take the \
+left path through the mountains. \n Before the ascent, {character_name} \
+passed a merchant who was selling supplies. Does {character_name} stop to \
+buy supplies before moving on? \n")
     print("-" * 50)
-    answer = input("[Enter: left or right] ")
+    answer = input("[Enter: buy supplies or keep moving] ")
     print("-" * 50)
 
-    if answer == "left":
+    if answer == "buy supplies":
         path_3_a()
 
-    elif answer == "right":
+    elif answer == "keep moving":
         path_3_b()
 
     else:
