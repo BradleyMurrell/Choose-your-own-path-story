@@ -11,13 +11,19 @@ def start_story():
     else:
         start_story()
 
-#PATH 1
+# PATH 1
 
 def path_1():
     """
     Path 1
     """
-    print("Story starts here. Choose your first path. Left or right? \n")
+    print("A messenger has been tasked to deliver an important message to the castle. \
+Along the way, the messenger came to a crossroad. To the left, the path led \
+through mountains. To the right, the path led through a dark and scary \
+forest. The mountains look safer, but will take a few extra days. The forest \
+would be quicker, but it looks dangerous. Do you take the the left path or \
+the right? \n")
+
     answer = input("[Enter: left or right] \n")
 
     if answer == "left":
@@ -29,7 +35,7 @@ def path_1():
     else:
         path_1()
 
-#PATH 2
+# PATH 2
 
 def path_2_a():
     """
@@ -63,7 +69,7 @@ def path_2_b():
     else:
         path_2_b()
 
-#PATH 3
+# PATH 3
 
 def path_3_a():
     """
@@ -128,7 +134,6 @@ def path_3_d():
 
     else:
         path_3_d()
-
 
 
 path_1()
