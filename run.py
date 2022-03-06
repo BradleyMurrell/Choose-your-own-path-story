@@ -38,12 +38,12 @@ def path_1():
     Path 1
     """
     print("-" * 50)
-    print(f"\n A messenger named {character_name} has been tasked to deliver \
+    print(f"\nA messenger named {character_name} has been tasked to deliver \
 an important message to the castle. Along the way, {character_name} came to \
 a crossroad. To the left, the path led through mountains. To the right, the \
 path led through a dark and scary forest. The mountains look safer, but will \
 take a few extra days. The forest would be quicker, but it looks dangerous. \
-Does {character_name} take the left path or the right? \n")
+Does {character_name} take the left path or the right?\n")
     print("-" * 50)
 
     answer = input("[Enter: left or right] ")
@@ -68,10 +68,10 @@ def path_2_a():
     Path 2
     """
     print("-" * 50)
-    print(f"\n {character_name} decided that it would be safer to take the \
+    print(f"\n{character_name} decided that it would be safer to take the \
 left path through the mountains. \n Before the ascent, {character_name} \
 passed a merchant who was selling supplies. Does {character_name} stop to \
-buy supplies before moving on? \n")
+buy supplies before moving on?\n")
     print("-" * 50)
     answer = input("[Enter: buy supplies or keep moving] ")
     print("-" * 50)
@@ -118,9 +118,9 @@ def path_3_a():
     Path 3
     """
     print("-" * 50)
-    print(f"\n As {character_name} was busy looking at the supplies, the \
+    print(f"\nAs {character_name} was busy looking at the supplies, the \
 merchant, who was actually an assasin, snuck up behind {character_name} \
-and attempted to attack. \n")
+and attempted to attack.\n")
     print("-" * 50)
     print("Attempt to fight back? [Roll dice]")
     answer = input("[Enter: yes or no] ")
