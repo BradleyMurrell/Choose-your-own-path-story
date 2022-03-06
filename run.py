@@ -267,29 +267,6 @@ def path_4_b():
         answer = input("[Enter: left or right] ")
 
 
-def path_4_c():
-    """
-    Path 4
-    """
-    print("-" * 50)
-    print("\n You chose the right path. Choose your next path. Left \
-    or right? \n")
-    print("-" * 50)
-    answer = input("[Enter: left or right] ")
-    print("-" * 50)
-
-    if answer == "left":
-        start_story()
-
-    elif answer == "right":
-        start_story()
-
-    else:
-        print("Invalid input")
-        print("-" * 50)
-        answer = input("[Enter: left or right] ")
-
-
 def finish_story():
     """
     Story finishes here
@@ -314,6 +291,5 @@ path_3_c()
 path_3_d()
 path_4_a()
 path_4_b()
-path_4_c()
 start_story()
 finish_story()
