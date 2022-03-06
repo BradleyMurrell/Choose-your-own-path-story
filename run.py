@@ -156,21 +156,22 @@ def path_3_b():
     print("-" * 50)
     print(f"\n{character_name} continues the journey through the mountains. \n\
 Three days have past and {character_name} can finally see the castle in the \
-distance. \n")
+distance. \nDoes {character_name} continue to the castle or make camp and \
+rest for the night?")
     print("-" * 50)
-    answer = input("[Enter: left or right] ")
+    answer = input("[Enter: continue or rest] ")
     print("-" * 50)
 
-    if answer == "left":
-        start_story()
+    if answer == "continue":
+        finish_story()
 
-    elif answer == "right":
-        start_story()
+    elif answer == "rest":
+        path_4_a()
 
     else:
         print("Invalid input")
         print("-" * 50)
-        answer = input("[Enter: left or right] ")
+        answer = input("[Enter: continue or rest] ")
 
 
 def path_3_c():
