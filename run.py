@@ -157,7 +157,7 @@ def path_3_b():
     print(f"\n{character_name} continues the journey through the mountains. \n\
 Three days have past and {character_name} can finally see the castle in the \
 distance. \nDoes {character_name} continue to the castle or make camp and \
-rest for the night?")
+rest for the night? \n")
     print("-" * 50)
     answer = input("[Enter: continue or rest] ")
     print("-" * 50)
@@ -267,17 +267,23 @@ def path_4_b():
         print("-" * 50)
         answer = input("[Enter: left or right] ")
 
+# END OF STORY
+
 
 def finish_story():
     """
     Story finishes here
     """
+    print("\nStory ends\n")
+    start_story()
 
 
 def game_over():
     """
     When the story ends before making it to the end
     """
+    print("\nGame over\n")
+    start_story()
 
 
 # RETURNED FUNCTIONS
