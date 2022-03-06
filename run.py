@@ -122,20 +122,31 @@ def path_3_a():
 merchant, who was actually an assasin, snuck up behind {character_name} \
 and attempted to attack.\n")
     print("-" * 50)
-    print("Attempt to fight back? [Roll dice]")
-    answer = input("[Enter: yes or no] ")
+    print("Attempt to fight back? [Roll dice. Roll a 3, 4, 5 or 6 to win]")
+    answer = input("[Enter: fight or don't fight] ")
     print("-" * 50)
-    if answer == "yes":
+    if answer == "fight":
         dice_roll = random.randrange(1, 6)
-        print(dice_roll)
+        print(f"You rolled a {dice_roll}")
 
         if dice_roll >= 3:
-            print("you won")
+            print(f"{character_name} successfully countered the assasin and \
+defeated him.")
             path_3_b()
 
         else:
-            print("you lose")
+            print(f"{character_name} failed to counter the assasins attacked \
+and died.")
             start_story()
+
+    elif answer == "don't fight":
+        print(f"{character_name} died")
+        start_story()
+
+    else:
+        print("Invalid input")
+        print("-" * 50)
+        answer = input("[Enter: fight or don't fight] ")
 
 
 def path_3_b():
@@ -143,8 +154,9 @@ def path_3_b():
     Path 3
     """
     print("-" * 50)
-    print("\n You chose the right path. Choose your next path. Left \
-    or right? \n")
+    print(f"\n{character_name} continues the journey through the mountains. \n\
+Three days have past and {character_name} can finally see the castle in the \
+distance. \n")
     print("-" * 50)
     answer = input("[Enter: left or right] ")
     print("-" * 50)
