@@ -8,7 +8,7 @@ print("A messengers journey")
 print("-" * 50)
 print("Instructions")
 print("-" * 50)
-character_name = input("Please enter your character's name: ")
+character_name = input("Please enter your character's name: \n")
 print("-" * 50)
 
 
@@ -21,7 +21,7 @@ def start_story():
     print("-" * 50)
     print("\n Do you want to start the story again? \n")
     print("-" * 50)
-    answer = input("[Enter: yes or no] ")
+    answer = input("[Enter: yes or no] \n")
     print("-" * 50)
 
     if answer == "yes":
@@ -46,7 +46,7 @@ take a few extra days. The forest would be quicker, but it looks dangerous. \
 Does {character_name} take the left path or the right?\n")
     print("-" * 50)
 
-    answer = input("[Enter: left or right] ")
+    answer = input("[Enter: left or right] \n")
     print("-" * 50)
 
     if answer == "left":
@@ -58,7 +58,7 @@ Does {character_name} take the left path or the right?\n")
     else:
         print("Invalid input")
         print("-" * 50)
-        answer = input("[Enter: left or right] ")
+        answer = input("[Enter: left or right] \n")
 
 # PATH 2
 
@@ -73,7 +73,7 @@ left path through the mountains. \n Before the ascent, {character_name} \
 passed a merchant who was selling supplies. Does {character_name} stop to \
 buy supplies before moving on?\n")
     print("-" * 50)
-    answer = input("[Enter: buy supplies or keep moving] ")
+    answer = input("[Enter: buy supplies or keep moving] \n")
     print("-" * 50)
 
     if answer == "buy supplies":
@@ -85,7 +85,7 @@ buy supplies before moving on?\n")
     else:
         print("Invalid input")
         print("-" * 50)
-        answer = input("[Enter: buy supplies or keep moving] ")
+        answer = input("[Enter: buy supplies or keep moving] \n")
 
 
 def path_2_b():
@@ -96,7 +96,7 @@ def path_2_b():
     print("\n You chose the right path. Choose your next path. Left \
     or right? \n")
     print("-" * 50)
-    answer = input("[Enter: left or right] ")
+    answer = input("[Enter: left or right] \n")
     print("-" * 50)
 
     if answer == "left":
@@ -108,7 +108,7 @@ def path_2_b():
     else:
         print("Invalid input")
         print("-" * 50)
-        answer = input("[Enter: left or right] ")
+        answer = input("[Enter: left or right] \n")
 
 # PATH 3
 
@@ -123,7 +123,7 @@ merchant, who was actually an assasin, snuck up behind {character_name} \
 and attempted to attack.\n")
     print("-" * 50)
     print("Attempt to fight back? [Roll dice. Roll a 3, 4, 5 or 6 to win]")
-    answer = input("[Enter: fight or don't fight] ")
+    answer = input("[Enter: fight or don't fight] \n")
     print("-" * 50)
     if answer == "fight":
         dice_roll = random.randrange(1, 6)
@@ -146,7 +146,7 @@ and died.")
     else:
         print("Invalid input")
         print("-" * 50)
-        answer = input("[Enter: fight or don't fight] ")
+        answer = input("[Enter: fight or don't fight] \n")
 
 
 def path_3_b():
@@ -159,7 +159,7 @@ Three days have past and {character_name} can finally see the castle in the \
 distance. \nDoes {character_name} continue to the castle or make camp and \
 rest for the night? \n")
     print("-" * 50)
-    answer = input("[Enter: continue or rest] ")
+    answer = input("[Enter: continue or rest] \n")
     print("-" * 50)
 
     if answer == "continue":
@@ -171,7 +171,7 @@ rest for the night? \n")
     else:
         print("Invalid input")
         print("-" * 50)
-        answer = input("[Enter: continue or rest] ")
+        answer = input("[Enter: continue or rest] \n")
 
 
 def path_3_c():
@@ -182,7 +182,7 @@ def path_3_c():
     print("\n You chose the left path. Choose your the next path. Left \
     or right? \n")
     print("-" * 50)
-    answer = input("[Enter: left or right] ")
+    answer = input("[Enter: left or right] \n")
     print("-" * 50)
 
     if answer == "left":
@@ -194,7 +194,7 @@ def path_3_c():
     else:
         print("Invalid input")
         print("-" * 50)
-        answer = input("[Enter: left or right] ")
+        answer = input("[Enter: left or right] \n")
 
 
 def path_3_d():
@@ -205,7 +205,7 @@ def path_3_d():
     print("\n You chose the right path. Choose your next path. Left \
     or right? \n")
     print("-" * 50)
-    answer = input("[Enter: left or right] ")
+    answer = input("[Enter: left or right] \n")
     print("-" * 50)
 
     if answer == "left":
@@ -217,7 +217,7 @@ def path_3_d():
     else:
         print("Invalid input")
         print("-" * 50)
-        answer = input("[Enter: left or right] ")
+        answer = input("[Enter: left or right] \n")
 
 # PATH 4
 
@@ -230,7 +230,7 @@ def path_4_a():
     print("\n You chose the right path. Choose your next path. Left \
     or right? \n")
     print("-" * 50)
-    answer = input("[Enter: left or right] ")
+    answer = input("[Enter: left or right] \n")
     print("-" * 50)
 
     if answer == "left":
@@ -242,7 +242,7 @@ def path_4_a():
     else:
         print("Invalid input")
         print("-" * 50)
-        answer = input("[Enter: left or right] ")
+        answer = input("[Enter: left or right] \n")
 
 
 def path_4_b():
@@ -253,7 +253,7 @@ def path_4_b():
     print("\n You chose the right path. Choose your next path. Left \
     or right? \n")
     print("-" * 50)
-    answer = input("[Enter: left or right] ")
+    answer = input("[Enter: left or right] \n")
     print("-" * 50)
 
     if answer == "left":
@@ -265,7 +265,7 @@ def path_4_b():
     else:
         print("Invalid input")
         print("-" * 50)
-        answer = input("[Enter: left or right] ")
+        answer = input("[Enter: left or right] \n")
 
 # END OF STORY
 
