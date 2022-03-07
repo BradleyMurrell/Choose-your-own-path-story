@@ -39,11 +39,12 @@ def path_1():
     """
     print("-" * 50)
     print(f"\n A messenger named {character_name} has been tasked to deliver \
-an important message to the castle. Along the way, {character_name} came to \
-a crossroad. To the left, the path led through mountains. To the right, the \
-path led through a dark and scary forest. The mountains look safer, but will \
-take a few extra days. The forest would be quicker, but it looks dangerous. \
-Does {character_name} take the left path or the right? \n")
+\n an important message to the castle. Along the way, {character_name} \
+\n came to a crossroad. To the left, the path led through mountains. \
+\n To the right, the path led through a dark and scary forest. \
+\n The mountains look safer, but will take a few extra days. \
+\n The forest would be quicker, but it looks dangerous. \
+\n Does {character_name} take the left path or the right? \n")
     print("-" * 50)
 
     answer = input("\n [Enter: left or right] \n")
@@ -69,9 +70,9 @@ def path_2_a():
     """
     print("-" * 50)
     print(f"\n {character_name} decided that it would be safer to take the \
-left path through the mountains. \n Before the ascent, {character_name} \
-passed a merchant who was selling supplies. Does {character_name} stop to \
-buy supplies before moving on? \n")
+\n left path through the mountains. \n Before the ascent, {character_name} \
+\n passed a merchant who was selling supplies. Does {character_name} \
+\n stop to buy supplies before moving on? \n")
     print("-" * 50)
     answer = input("\n [Enter: buy supplies or keep moving] \n")
     print("-" * 50)
@@ -119,8 +120,8 @@ def path_3_a():
     """
     print("-" * 50)
     print(f"\n As {character_name} was busy looking at the supplies, the \
-merchant, who was actually an assasin, snuck up behind {character_name} \
-and attempted to attack.\n")
+\n merchant, who was actually an assasin, snuck up behind \
+\n {character_name} and attempted to attack.\n")
     print("-" * 50)
     print(" Attempt to fight back? [Roll dice. Roll a 3, 4, 5 or 6 to win]")
     answer = input("\n [Enter: fight or don't fight] \n")
@@ -131,7 +132,7 @@ and attempted to attack.\n")
 
         if dice_roll >= 3:
             print(f" {character_name} successfully countered the assasin and \
-defeated him.")
+\n defeated him.")
             path_3_b()
 
         else:
@@ -154,10 +155,10 @@ def path_3_b():
     Path 3
     """
     print("-" * 50)
-    print(f"\n {character_name} continues the journey through the mountains. \n\
- Three days have past and {character_name} can finally see the castle in the \
-distance. \n Does {character_name} continue to the castle or make camp and \
-rest for the night? \n")
+    print(f"\n {character_name} continues the journey through the mountains. \
+\n Three days have past and {character_name} can finally see \
+\nthe castle in the distance. Does {character_name} continue \
+\n to the castle or make camp and rest for the night? \n")
     print("-" * 50)
     answer = input("\n [Enter: continue or rest] \n")
     print("-" * 50)
