@@ -39,12 +39,13 @@ def path_1():
     """
     print("-" * 50)
     print(f"\n A messenger named {character_name} has been tasked to deliver \
-\n an important message to the castle. Along the way, {character_name} \
-\n came to a crossroad. To the left, the path led through mountains. \
-\n To the right, the path led through a dark and scary forest. \
-\n The mountains look safer, but will take a few extra days. \
-\n The forest would be quicker, but it looks dangerous. \
-\n Does {character_name} take the left path or the right? \n")
+\n an important message to the castle. Along the way, \
+\n {character_name} came to a crossroad. To the left, the path \
+\n led through mountains. To the right, the path led through a \
+\n dark and scary forest. The mountains look safer, but will \
+\n take a few extra days. The forest would be quicker, but it \
+\n looks dangerous. Does {character_name} take the left path or \
+\n the right? \n")
     print("-" * 50)
 
     answer = input("\n [Enter: left or right] \n")
@@ -70,9 +71,9 @@ def path_2_a():
     """
     print("-" * 50)
     print(f"\n {character_name} decided that it would be safer to take the \
-\n left path through the mountains. \n Before the ascent, {character_name} \
-\n passed a merchant who was selling supplies. Does {character_name} \
-\n stop to buy supplies before moving on? \n")
+\n left path through the mountains. Before the ascent, \
+\n {character_name} passed a merchant who was selling supplies. \
+\n Does {character_name} stop to buy supplies before moving on? \n")
     print("-" * 50)
     answer = input("\n [Enter: buy supplies or keep moving] \n")
     print("-" * 50)
@@ -156,9 +157,9 @@ def path_3_b():
     """
     print("-" * 50)
     print(f"\n {character_name} continues the journey through the mountains. \
-\n Three days have past and {character_name} can finally see \
-\nthe castle in the distance. Does {character_name} continue \
-\n to the castle or make camp and rest for the night? \n")
+\n Three days have past and {character_name} can finally see the \
+\n castle in the distance. Does {character_name} continue to the \
+\n castle or make camp and rest for the night? \n")
     print("-" * 50)
     answer = input("\n [Enter: continue or rest] \n")
     print("-" * 50)

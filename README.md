@@ -39,7 +39,7 @@
 
 ## Deployment
 
-
+#### This project was deployed using Code Institute's mock terminal for Heroku
 
 ## Credits
 
