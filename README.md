@@ -8,14 +8,26 @@
 
 
 
+## Flowchart
+
+<img src="images/choose your own path flowchart.png">
+
 ## Features
 ### Existing Features
 
-
+* Choose from one of two paths to continue the story
+* Some paths require a dice roll to determine the outcome
+* Multiple story endings
+* User enters a character name that is added into the story
 
 ### Future Features
 
-
+* More immersive story line and paths
+* Add character stats such as health, mana and stamina
+* Add character classes such as warrior, mage and rogue
+* Some paths will be able to be passed by certain classes but not the others
+* Certain classes will be able to bypass a path while the other will need to roll dice
+* Add items that can be picked up
 
 ## Data Model
 
@@ -29,7 +41,7 @@
 
 
 
-### Remaining Bugs
+#### Remaining Bugs
 
 
 
@@ -40,6 +52,11 @@
 ## Deployment
 
 #### This project was deployed using Code Institute's mock terminal for Heroku
+* Steps for deployment:
+  * Create a Heroku app
+  * Set the buildbacks to Python and NodeJS in that order
+  * Link the Heroku app to the repository
+  * Click on deploy
 
 ## Credits
 
