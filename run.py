@@ -2,10 +2,12 @@
 Imports go here
 """
 import random
+from colorama import Fore
 
 
 print("-" * 50)
 print(" A messengers journey")
+print(Fore.RED + 'some red text')
 print("-" * 50)
 print(" Instructions")
 print("-" * 50)
