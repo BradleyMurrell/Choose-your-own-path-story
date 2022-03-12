@@ -198,22 +198,36 @@ def path_3_d():
     Path 3
     """
     dotted_line()
-    print("You chose the right path. Choose your next path. Left \
-or right?")
+    print(f"{character_name} attempted to cross the bridge. When \
+{character_name} got halfway, the bridge started to collapse.")
     dotted_line()
-    answer = input("[Enter: left or right] ")
+    print("Attempt to run to the otherside? [Roll dice. Roll a \
+3, 4, 5 or 6 to make it to the otherside]")
+    answer = input("[Enter: run or stand still] ")
     dotted_line()
 
-    if answer == "left":
-        start_story()
+    if answer == "run":
+        dice_roll = random.randrange(1, 6)
+        print(f"You rolled a {dice_roll}")
 
-    elif answer == "right":
+        if dice_roll >= 3:
+            print(f"{character_name} successfully made it across to the \
+otherside before the bridge collapsed.")
+            path_3_c()
+
+        else:
+            print(f"{character_name} failed to make it across in time and \
+fell to their death")
+            start_story()
+
+    elif answer == "stand still":
+        print(f"{character_name} fell to their death.")
         start_story()
 
     else:
         print("Invalid input")
         dotted_line()
-        answer = input("[Enter: left or right] ")
+        answer = input("[Enter: run or stand still] ")
 
 
 def path_4_a():
