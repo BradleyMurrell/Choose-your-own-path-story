@@ -260,22 +260,37 @@ def path_4_b():
     Path 4
     """
     dotted_line()
-    print("You chose the right path. Choose your next path. Left \
-or right?")
+    print(f"After a long journey through the forest {character_name} decided \
+to make camp for the night before continuing to the castle. {character_name} \
+was awoken by a loud roar and suddenly attacked by a troll.")
     dotted_line()
-    answer = input("[Enter: left or right] ")
+    print("Attempt to fight the troll? [Roll dice. Roll a \
+3, 4, 5 or 6 to win the fight]")
+    answer = input("[Enter: fight or run away] ")
     dotted_line()
 
-    if answer == "left":
-        start_story()
+    if answer == "fight":
+        dice_roll = random.randrange(1, 6)
+        print(f"You rolled a {dice_roll}")
 
-    elif answer == "right":
+        if dice_roll >= 3:
+            print(f"{character_name} successfully hit the troll and defeated \
+it.")
+            finish_story()
+
+        else:
+            print(f"{character_name} failed to hit the troll and died.")
+            start_story()
+
+    elif answer == "run away":
+        print(f"{character_name} attempted to run away but was knocked to the \
+ground by the troll and crushed to death.")
         start_story()
 
     else:
         print("Invalid input")
         dotted_line()
-        answer = input("[Enter: left or right] ")
+        answer = input("[Enter: fight or run away] ")
 
 
 def finish_story():
