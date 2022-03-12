@@ -192,7 +192,7 @@ for the night?")
     else:
         print("Invalid input")
         dotted_line()
-        answer = input("[Enter: left or right] ")
+        answer = input("[Enter: continue or rest] ")
 
 
 def path_3_d():
