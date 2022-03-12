@@ -106,11 +106,13 @@ def path_2_b():
     Path 2
     """
     dotted_line()
-    print(f"{character_name} decided that time was short and it would be \
+    data = f"{character_name} decided that time was short and it would be \
 quicker to take the right path through the scary forest. After some time, \
 {character_name} comes to a river. There is a bridge to cross to the other \
 side, but it looks like it is about to fall apart. Does {character_name} \
-attempt to cross the bridge?")
+attempt to cross the bridge?"
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
     dotted_line()
     answer = input("[Enter: cross bridge or find another way] ")
     dotted_line()
@@ -132,9 +134,11 @@ def path_3_a():
     Path 3
     """
     dotted_line()
-    print(f"As {character_name} was busy looking at the supplies, \
+    data = f"As {character_name} was busy looking at the supplies, \
 the merchant, who was actually an assasin, snuck up behind {character_name} \
-and attempted to attack.")
+and attempted to attack."
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
     dotted_line()
     print("Attempt to fight back? [Roll dice. Roll a 3, 4, 5 or 6 to win]")
     answer = input("[Enter: fight or don't fight] ")
@@ -168,10 +172,12 @@ def path_3_b():
     Path 3
     """
     dotted_line()
-    print(f"{character_name} continues the journey through the mountains. \
+    data = f"{character_name} continues the journey through the mountains. \
 Three days have passed and {character_name} can finally see the castle in the \
 distance. Does {character_name} continue to the castle or make camp and rest \
-for the night?")
+for the night?"
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
     dotted_line()
     answer = input("[Enter: continue or rest] ")
     dotted_line()
@@ -193,10 +199,12 @@ def path_3_c():
     Path 3
     """
     dotted_line()
-    print(f"{character_name} continues the journey through the forest. \
+    data = f"{character_name} continues the journey through the forest. \
 A day has passed and {character_name} can finally see the castle in the \
 distance. Does {character_name} continue to the castle or make camp and rest \
-for the night?")
+for the night?"
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
     dotted_line()
     answer = input("[Enter: continue or rest] ")
     dotted_line()
@@ -218,8 +226,10 @@ def path_3_d():
     Path 3
     """
     dotted_line()
-    print(f"{character_name} attempted to cross the bridge. When \
-{character_name} got halfway, the bridge started to collapse.")
+    data = f"{character_name} attempted to cross the bridge. When \
+{character_name} got halfway, the bridge started to collapse."
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
     dotted_line()
     print("Attempt to run to the otherside? [Roll dice. Roll a \
 3, 4, 5 or 6 to make it to the otherside]")
@@ -255,9 +265,11 @@ def path_4_a():
     Path 4
     """
     dotted_line()
-    print(f"After a long journey through the mountains {character_name} decided \
+    data = f"After a long journey through the mountains {character_name} decided \
 to make camp for the night before continuing to the castle. {character_name} \
-was awoken by loud clanking and was suddenly attacked by a knight.")
+was awoken by loud clanking and was suddenly attacked by a knight."
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
     dotted_line()
     print("Attempt to fight the knight? [Roll dice. Roll a \
 3, 4, 5 or 6 to win the fight]")
@@ -293,9 +305,11 @@ def path_4_b():
     Path 4
     """
     dotted_line()
-    print(f"After a long journey through the forest {character_name} decided \
+    data = f"After a long journey through the forest {character_name} decided \
 to make camp for the night before continuing to the castle. {character_name} \
-was awoken by a loud roar and was suddenly attacked by a troll.")
+was awoken by a loud roar and was suddenly attacked by a troll."
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
     dotted_line()
     print("Attempt to fight the troll? [Roll dice. Roll a \
 3, 4, 5 or 6 to win the fight]")
@@ -331,8 +345,10 @@ def finish_story():
     Story finishes here
     """
     dotted_line()
-    print(f"After a long journey, {character_name} finally made it to the \
-castle and sucessfully delivered the message.")
+    data = f"After a long journey, {character_name} finally made it to the \
+castle and sucessfully delivered the message."
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
     dotted_line()
     print("Cogratulations on making it to the end of the story!")
     start_story()
