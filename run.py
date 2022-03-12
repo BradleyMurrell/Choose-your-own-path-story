@@ -312,7 +312,11 @@ def finish_story():
     """
     Story finishes here
     """
-    print("\n Story ends \n")
+    dotted_line()
+    print(f"After a long journey, {character_name} finally made it to the \
+castle and sucessfully delivered the message.")
+    dotted_line()
+    print("Cogratulations on making it to the end of the story!")
     start_story()
 
 
