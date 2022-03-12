@@ -151,7 +151,7 @@ def path_3_b():
     """
     dotted_line()
     print(f"{character_name} continues the journey through the mountains. \
-Three days have past and {character_name} can finally see the castle in the \
+Three days have passed and {character_name} can finally see the castle in the \
 distance. Does {character_name} continue to the castle or make camp and rest \
 for the night?")
     dotted_line()
@@ -175,17 +175,19 @@ def path_3_c():
     Path 3
     """
     dotted_line()
-    print("You chose the left path. Choose your the next path. Left \
-or right?")
+    print(f"{character_name} continues the journey through the forest. \
+A day has passed and {character_name} can finally see the castle in the \
+distance. Does {character_name} continue to the castle or make camp and rest \
+for the night?")
     dotted_line()
-    answer = input("[Enter: left or right] ")
+    answer = input("[Enter: continue or rest] ")
     dotted_line()
 
-    if answer == "left":
-        start_story()
+    if answer == "continue":
+        finish_story()
 
-    elif answer == "right":
-        start_story()
+    elif answer == "rest":
+        path_4_b()
 
     else:
         print("Invalid input")
