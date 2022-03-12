@@ -7,20 +7,20 @@ import textwrap
 print("-" * 60)
 print("A Messengers Journey")
 print("-" * 60)
+
 print("Instructions \n")
-value = "Welcome to 'A Messengers Journey', an interactive story where you \
+VALUE = "Welcome to 'A Messengers Journey', an interactive story where you \
 choose what path the character of the story takes. First, create the \
 characters name, then begin the story. At every section of the story, you \
 get to choose one of two choices in order to progress. To do this, just type \
 in one of the two promted commands, then press ENTER. Depending on your \
-choice, you may have an oppertunity to roll a dice to detirmine the outcome. \
+choice, you may have an opportunity to roll a dice to determine the outcome. \
 This could lead to the story ending, or if your character survives, progress \
 to the next section of the story."
 wrapper = textwrap.TextWrapper(width=60)
-
-word_list = wrapper.wrap(text=value)
-for element in word_list:
-    print(element)
+word_list = wrapper.wrap(text=VALUE)
+STRING = wrapper.fill(text=VALUE)
+print(STRING)
 
 print("-" * 60)
 character_name = input("Please enter your character's name: ")
@@ -49,12 +49,14 @@ def path_1():
     Path 1
     """
     dotted_line()
-    print(f"A messenger named {character_name} has been tasked to deliver \
+    data = f"A messenger named {character_name} has been tasked to deliver \
 an important message to the castle. Along the way, {character_name} came to \
 a crossroad. To the left, the path led through mountains. To the right, the \
 path led through a dark and scary forest. The mountains look safer, but will \
 take a few extra days. The forest would be quicker, but it looks dangerous. \
-Does {character_name} take the left path or the right?")
+Does {character_name} take the left path or the right?"
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
     dotted_line()
 
     answer = input("[Enter: left or right] ")
@@ -77,10 +79,12 @@ def path_2_a():
     Path 2
     """
     dotted_line()
-    print(f"{character_name} decided that it would be safer to take the \
+    data = f"{character_name} decided that it would be safer to take the \
 left path through the mountains. Before the ascent, {character_name} passed \
 a merchant who was selling supplies. Does {character_name} stop to buy \
-supplies before moving on?")
+supplies before moving on?"
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
     dotted_line()
     answer = input("[Enter: buy supplies or keep moving] ")
     dotted_line()
