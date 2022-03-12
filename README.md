@@ -10,7 +10,7 @@
 
 ## Flowchart
 
-<img src="images/choose your own path flowchart.png">
+<img src="">
 
 ## Features
 ### Existing Features
