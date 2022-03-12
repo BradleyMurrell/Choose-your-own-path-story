@@ -2,20 +2,26 @@
 Imports go here
 """
 import random
-
+import textwrap
 
 print("-" * 60)
 print("A Messengers Journey")
 print("-" * 60)
-print("Instructions")
-print("Welcome to 'A Messengers Journey', an interactive story where you \
+print("Instructions \n")
+value = "Welcome to 'A Messengers Journey', an interactive story where you \
 choose what path the character of the story takes. First, create the \
 characters name, then begin the story. At every section of the story, you \
 get to choose one of two choices in order to progress. To do this, just type \
 in one of the two promted commands, then press ENTER. Depending on your \
 choice, you may have an oppertunity to roll a dice to detirmine the outcome. \
 This could lead to the story ending, or if your character survives, progress \
-to the next section of the story.")
+to the next section of the story."
+wrapper = textwrap.TextWrapper(width=60)
+
+word_list = wrapper.wrap(text=value)
+for element in word_list:
+    print(element)
+
 print("-" * 60)
 character_name = input("Please enter your character's name: ")
 print("-" * 60)
