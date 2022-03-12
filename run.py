@@ -88,22 +88,25 @@ def path_2_b():
     Path 2
     """
     dotted_line()
-    print("You chose the right path. Choose your next path. Left \
-or right?")
+    print(f"{character_name} decided that time was short and it would be \
+quicker to take the right path through the scary forest. After some time, \
+{character_name} comes to a river. There is a bridge to cross to the other \
+side, but it looks like it is about to fall apart. Does {character_name} \
+attempt to cross the bridge?")
     dotted_line()
-    answer = input("[Enter: left or right] ")
+    answer = input("[Enter: cross bridge or find another way] ")
     dotted_line()
 
-    if answer == "left":
+    if answer == "find another way":
         path_3_c()
 
-    elif answer == "right":
+    elif answer == "cross bridge":
         path_3_d()
 
     else:
         print("Invalid input")
         dotted_line()
-        answer = input("[Enter: left or right] ")
+        answer = input("[Enter: cross bridge or find another way] ")
 
 
 def path_3_a():
