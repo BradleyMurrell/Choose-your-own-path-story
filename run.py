@@ -3,7 +3,6 @@ Imports go here
 """
 import random
 import textwrap
-from colorama import init, Fore
 
 print("-" * 60)
 print("A Messengers Journey")
@@ -360,8 +359,7 @@ def dotted_line():
     Prints a dotted line with a new line above and below
     """
     print("\n")
-    print(Fore.CYAN + "-" * 60)
-    print(Fore.RESET)
+    print("-" * 60)
     print("\n")
 
 
@@ -377,4 +375,3 @@ path_4_b()
 start_story()
 finish_story()
 dotted_line()
-init()
