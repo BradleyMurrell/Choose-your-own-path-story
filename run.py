@@ -153,7 +153,7 @@ defeated him.")
             path_3_b()
 
         else:
-            print(f"{character_name} failed to counter the assasins attacked \
+            print(f"{character_name} failed to counter the assasins attack \
 and died.")
             start_story()
 
