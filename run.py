@@ -3,6 +3,7 @@ Imports go here
 """
 import random
 import textwrap
+from utils import dotted_line
 
 print("-" * 60)
 print("A Messengers Journey")
@@ -396,15 +397,6 @@ castle and sucessfully delivered the message."
     start_story()
 
 
-def dotted_line():
-    """
-    Prints a dotted line with a new line above and below
-    """
-    print("\n")
-    print("-" * 60)
-    print("\n")
-
-
 path_1()
 path_2_a()
 path_2_b()
@@ -416,4 +408,3 @@ path_4_a()
 path_4_b()
 start_story()
 finish_story()
-dotted_line()
