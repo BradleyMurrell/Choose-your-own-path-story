@@ -14,7 +14,7 @@
 
 # How to play
 
-### The user first creates a character name, then the story begins. At every section of the story, the user chooses one of two choices in order to progress. To do this, the user types in one of the two promted commands and then press `ENTER`. Depending on the users choice, the user may have an opportunity to roll a dice to determine the outcome. Rolling a dice works the same way as choosing any other choice, except a random number between 1 and 6 is generated. The number that is generated determines what path will be chosen next. This could lead to the story ending, or if the character survives, progress to the next section of the story.
+#### The user first creates a character name, then the story begins. At every section of the story, the user chooses one of two choices in order to progress. To do this, the user types in one of the two promted commands and then press `ENTER`. Depending on the users choice, the user may have an opportunity to roll a dice to determine the outcome. Rolling a dice works the same way as choosing any other choice, except a random number between 1 and 6 is generated. The number that is generated determines what path will be chosen next. This could lead to the story ending, or if the character survives, progress to the next section of the story.
 
 <br>
 
@@ -74,25 +74,19 @@
 
 # Data Model
 
-### The project started with just a simple if/else and evolved into a multi tiered story.
+#### The project started with just a simple if/else and evolved into a multi tiered story.
 
-<br>
+#### Each path is defined with an if/elif/else statement which directs to another defined path depending on the choice.
 
-### Each path is defined with an if/elif/else statement which directs to another defined path depending on the choice.
+#### I added f-strings so that a character name of the users choice is added to the story.
 
-<br>
-
-### I added f-strings so that a character name of the users choice is added to the story.
-
-<br>
-
-### Finally, I added a random module to randomly pick a number, which represents a dice roll.
+#### Finally, I added a random module to randomly pick a number, which represents a dice roll.
 
 <br>
 
 # Testing
 
-### I have manually tested this project by doing the following:
+#### I have manually tested this project by doing the following:
 
 * Passed the code through a PEP8 linter and confirmed there are no probems
 * Given invalid inputs: when inputs are out of bounds

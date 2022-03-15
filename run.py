@@ -140,7 +140,10 @@ and attempted to attack."
     wrapped_lines = textwrap.wrap(data, width=60)
     print("\n".join(wrapped_lines))
     dotted_line()
-    print("Attempt to fight back? [Roll dice. Roll a 3, 4, 5 or 6 to win]")
+    data = "Attempt to fight back? [Roll dice. Roll a 3, 4, 5 or 6 to win]"
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
+    dotted_line()
     answer = input("[Enter: fight or don't fight] ")
     dotted_line()
     if answer == "fight":
@@ -148,13 +151,19 @@ and attempted to attack."
         print(f"You rolled a {dice_roll}")
 
         if dice_roll >= 3:
-            print(f"{character_name} successfully countered the assasin and \
-defeated him.")
+            data = f"{character_name} successfully countered the assasin and \
+defeated him."
+            wrapped_lines = textwrap.wrap(data, width=60)
+            print("\n".join(wrapped_lines))
+            dotted_line()
             path_3_b()
 
         else:
-            print(f"{character_name} failed to counter the assasins attack \
-and died.")
+            data = f"{character_name} failed to counter the assasins attack \
+and died."
+            wrapped_lines = textwrap.wrap(data, width=60)
+            print("\n".join(wrapped_lines))
+            dotted_line()
             start_story()
 
     elif answer == "don't fight":
@@ -231,8 +240,11 @@ def path_3_d():
     wrapped_lines = textwrap.wrap(data, width=60)
     print("\n".join(wrapped_lines))
     dotted_line()
-    print("Attempt to run to the otherside? [Roll dice. Roll a \
-3, 4, 5 or 6 to make it to the otherside]")
+    data = "Attempt to run to the otherside? [Roll dice. Roll a \
+3, 4, 5 or 6 to make it to the otherside]"
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
+    dotted_line()
     answer = input("[Enter: run or stand still] ")
     dotted_line()
 
@@ -241,13 +253,19 @@ def path_3_d():
         print(f"You rolled a {dice_roll}")
 
         if dice_roll >= 3:
-            print(f"{character_name} successfully made it across to the \
-otherside before the bridge collapsed.")
+            data = f"{character_name} successfully made it across to the \
+otherside before the bridge collapsed."
+            wrapped_lines = textwrap.wrap(data, width=60)
+            print("\n".join(wrapped_lines))
+            dotted_line()
             path_3_c()
 
         else:
-            print(f"{character_name} failed to make it across in time and \
-fell to their death")
+            data = f"{character_name} failed to make it across in time and \
+fell to their death"
+            wrapped_lines = textwrap.wrap(data, width=60)
+            print("\n".join(wrapped_lines))
+            dotted_line()
             start_story()
 
     elif answer == "stand still":
@@ -271,8 +289,11 @@ was awoken by loud clanking and was suddenly attacked by a knight."
     wrapped_lines = textwrap.wrap(data, width=60)
     print("\n".join(wrapped_lines))
     dotted_line()
-    print("Attempt to fight the knight? [Roll dice. Roll a \
-3, 4, 5 or 6 to win the fight]")
+    data = "Attempt to fight the knight? [Roll dice. Roll a \
+3, 4, 5 or 6 to win the fight]"
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
+    dotted_line()
     answer = input("[Enter: fight or run away] ")
     dotted_line()
 
@@ -281,17 +302,26 @@ was awoken by loud clanking and was suddenly attacked by a knight."
         print(f"You rolled a {dice_roll}")
 
         if dice_roll >= 3:
-            print(f"{character_name} successfully hit the knight and defeated \
-them.")
+            data = f"{character_name} successfully hit the knight and defeated \
+them."
+            wrapped_lines = textwrap.wrap(data, width=60)
+            print("\n".join(wrapped_lines))
+            dotted_line()
             finish_story()
 
         else:
-            print(f"{character_name} failed to hit the knight and died.")
+            data = f"{character_name} failed to hit the knight and died."
+            wrapped_lines = textwrap.wrap(data, width=60)
+            print("\n".join(wrapped_lines))
+            dotted_line()
             start_story()
 
     elif answer == "run away":
-        print(f"{character_name} attempted to run away but was knocked to the \
-ground by the knight and was swiftly executed.")
+        data = f"{character_name} attempted to run away but was knocked to the \
+ground by the knight and was swiftly executed."
+        wrapped_lines = textwrap.wrap(data, width=60)
+        print("\n".join(wrapped_lines))
+        dotted_line()
         start_story()
 
     else:
@@ -311,8 +341,11 @@ was awoken by a loud roar and was suddenly attacked by a troll."
     wrapped_lines = textwrap.wrap(data, width=60)
     print("\n".join(wrapped_lines))
     dotted_line()
-    print("Attempt to fight the troll? [Roll dice. Roll a \
-3, 4, 5 or 6 to win the fight]")
+    data = "Attempt to fight the troll? [Roll dice. Roll a \
+3, 4, 5 or 6 to win the fight]"
+    wrapped_lines = textwrap.wrap(data, width=60)
+    print("\n".join(wrapped_lines))
+    dotted_line()
     answer = input("[Enter: fight or run away] ")
     dotted_line()
 
@@ -321,17 +354,26 @@ was awoken by a loud roar and was suddenly attacked by a troll."
         print(f"You rolled a {dice_roll}")
 
         if dice_roll >= 3:
-            print(f"{character_name} successfully hit the troll and defeated \
-it.")
+            data = f"{character_name} successfully hit the troll and defeated \
+it."
+            wrapped_lines = textwrap.wrap(data, width=60)
+            print("\n".join(wrapped_lines))
+            dotted_line()
             finish_story()
 
         else:
-            print(f"{character_name} failed to hit the troll and died.")
+            data = f"{character_name} failed to hit the troll and died."
+            wrapped_lines = textwrap.wrap(data, width=60)
+            print("\n".join(wrapped_lines))
+            dotted_line()
             start_story()
 
     elif answer == "run away":
-        print(f"{character_name} attempted to run away but was knocked to the \
-ground by the troll and crushed to death.")
+        data = f"{character_name} attempted to run away but was knocked to the \
+ground by the troll and crushed to death."
+        wrapped_lines = textwrap.wrap(data, width=60)
+        print("\n".join(wrapped_lines))
+        dotted_line()
         start_story()
 
     else:
