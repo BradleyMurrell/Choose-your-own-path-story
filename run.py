@@ -5,6 +5,7 @@ import random
 import textwrap
 from utils import dotted_line
 
+dotted_line()
 print("A Messengers Journey")
 dotted_line()
 
