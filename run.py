@@ -5,9 +5,8 @@ import random
 import textwrap
 from utils import dotted_line
 
-print("-" * 60)
 print("A Messengers Journey")
-print("-" * 60)
+dotted_line()
 
 print("Instructions \n")
 VALUE = "Welcome to 'A Messengers Journey', an interactive story where you \
@@ -23,9 +22,9 @@ word_list = wrapper.wrap(text=VALUE)
 STRING = wrapper.fill(text=VALUE)
 print(STRING)
 
-print("-" * 60)
+dotted_line()
 character_name = input("Please enter your character's name: ")
-print("-" * 60)
+dotted_line()
 
 
 def start_story():
