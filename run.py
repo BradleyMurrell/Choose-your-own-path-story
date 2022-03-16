@@ -79,7 +79,6 @@ def path_2_a():
     """
     Path 2
     """
-    dotted_line()
     data = f"{character_name} decided that it would be safer to take the \
 left path through the mountains. Before the ascent, {character_name} passed \
 a merchant who was selling supplies. Does {character_name} stop to buy \
@@ -106,7 +105,6 @@ def path_2_b():
     """
     Path 2
     """
-    dotted_line()
     data = f"{character_name} decided that time was short and it would be \
 quicker to take the right path through the scary forest. After some time, \
 {character_name} comes to a river. There is a bridge to cross to the other \
@@ -134,7 +132,6 @@ def path_3_a():
     """
     Path 3
     """
-    dotted_line()
     data = f"As {character_name} was busy looking at the supplies, \
 the merchant, who was actually an assasin, snuck up behind {character_name} \
 and attempted to attack."
@@ -181,7 +178,6 @@ def path_3_b():
     """
     Path 3
     """
-    dotted_line()
     data = f"{character_name} continues the journey through the mountains. \
 Three days have passed and {character_name} can finally see the castle in the \
 distance. Does {character_name} continue to the castle or make camp and rest \
@@ -208,7 +204,6 @@ def path_3_c():
     """
     Path 3
     """
-    dotted_line()
     data = f"{character_name} continues the journey through the forest. \
 A day has passed and {character_name} can finally see the castle in the \
 distance. Does {character_name} continue to the castle or make camp and rest \
@@ -235,7 +230,6 @@ def path_3_d():
     """
     Path 3
     """
-    dotted_line()
     data = f"{character_name} attempted to cross the bridge. When \
 {character_name} got halfway, the bridge started to collapse."
     wrapped_lines = textwrap.wrap(data, width=60)
@@ -283,7 +277,6 @@ def path_4_a():
     """
     Path 4
     """
-    dotted_line()
     data = f"After a long journey through the mountains {character_name} decided \
 to make camp for the night before continuing to the castle. {character_name} \
 was awoken by loud clanking and was suddenly attacked by a knight."
@@ -335,7 +328,6 @@ def path_4_b():
     """
     Path 4
     """
-    dotted_line()
     data = f"After a long journey through the forest {character_name} decided \
 to make camp for the night before continuing to the castle. {character_name} \
 was awoken by a loud roar and was suddenly attacked by a troll."
@@ -387,7 +379,6 @@ def finish_story():
     """
     Story finishes here
     """
-    dotted_line()
     data = f"After a long journey, {character_name} finally made it to the \
 castle and sucessfully delivered the message."
     wrapped_lines = textwrap.wrap(data, width=60)
