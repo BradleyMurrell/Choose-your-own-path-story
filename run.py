@@ -32,7 +32,6 @@ def start_story():
     """
     Start a new story here
     """
-    dotted_line()
     print("Do you want to start the story again?")
     dotted_line()
     answer = input("[Enter: yes or no] ")
